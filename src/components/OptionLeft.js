@@ -6,7 +6,7 @@ function FoodOption(props) {
   return (
       <Container>
           <h3>{props.title}</h3>
-          <img src={props.image} width='480vw' height='278vh'/>
+          <img src={props.image} width='480vw' height='278vh' alt='image'/>
       </Container>
   );
 }
