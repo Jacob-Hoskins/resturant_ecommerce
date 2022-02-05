@@ -14,9 +14,8 @@ function FoodOption(props) {
 export default FoodOption;
 
 const Container = styled.article`
+    display: flex;
     background-color: #ED7966;
-    margin-left: 15vw;
-    margin-top: 20vh;
     width: 25vw;
     height: 35vh;
     border: solid black 3px;
@@ -28,6 +27,8 @@ const Container = styled.article`
     img{
         margin: 0;
         border-radius: 25px;
+        margin-top: 3.8rem;
+        
     }
     
 `
