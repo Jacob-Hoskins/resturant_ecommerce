@@ -52,7 +52,7 @@ const Container = styled.nav`
     }
 
     @media (max-width: 500px){
-        h3 .logo .sideIcons .Icons{
+        .logo{
             width: 1rem;
             height: 1rem'
         }
