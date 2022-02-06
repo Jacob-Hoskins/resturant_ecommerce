@@ -45,6 +45,7 @@ const Container = styled.nav`
     @media (max-width: 500px){
         h3{
             font-size: 18px;
+            margin-top: 1.5vh;
         }
     }
 `
