@@ -29,6 +29,11 @@ const Container = styled.article`
     @media (max-width: 500px){
         width: 15rem;
         height: 11.1rem;
+
+        img{
+            width: 15rem;
+            height: 11.1rem;
+        }
     }
 
     img{
