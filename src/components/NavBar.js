@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { IoSearch, IoCart, IoPersonOutline } from "react-icons/io5";
+
+
 function NavBar() {
   return (
     <Container>
@@ -22,7 +24,6 @@ export default NavBar;
 
 const Container = styled.nav`
     display: grid;
-    width: 100%;
     grid-template-columns: 33vw 33vw 33vw;
     margin: auto;
     padding: 15px;

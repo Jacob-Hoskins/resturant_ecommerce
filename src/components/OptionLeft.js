@@ -15,7 +15,7 @@ export default FoodOption;
 
 const Container = styled.article`
     background-color: #ED7966;
-    margin-left: 15vw;
+    margin-left: 5rem;
     margin-top: 20vh;
     width: 30rem;
     height: 21.2rem;
