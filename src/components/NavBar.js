@@ -50,6 +50,13 @@ const Container = styled.nav`
     .sideIcons{
         margin-right: 20px;
     }
+
+    @media (max-width: 500px){
+        h3 .logo .sideIcons .Icons{
+            width: 1rem;
+            height: 1rem'
+        }
+    }
 `
 
 const SearchBar = styled.div`
