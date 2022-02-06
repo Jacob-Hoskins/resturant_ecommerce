@@ -32,7 +32,7 @@ const Container = styled.article`
 
         img{
             width: 15rem;
-            height: 5.3rem;
+            height: 6.5rem;
         }
     }
 
