@@ -45,7 +45,7 @@ const Container = styled.nav`
     @media (max-width: 500px){
         h3{
             font-size: 18px;
-            margin-top: 1.5vh;
+            margin-top: 4vh;
         }
     }
 `
@@ -83,7 +83,7 @@ const SideIcons = styled.div`
     padding: 5px;
 
     @media (max-width: 500px){
-        margin-top: -8vh;
+        margin-top: -9vh;
         margin-left: 70vw;
         width: 20vw;
     }
