@@ -12,7 +12,7 @@ function App() {
   return (
     <Container>
       <NavBar />
-      <MenuBar />
+      {/* <MenuBar /> */}
       <OptionLeft title='Books' image='../Pictures/books.jpg' />
       <OptionLeft title='Outdoors' image='https://cdn.thecoolist.com/wp-content/uploads/2020/10/Used-Outdoor-Gear-and-Sporting-Goods-Stores.jpg' />
       <OptionLeft title='Deals' image='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGDu7y_mDz5hcbNklb25cmj_kNGmLRecUiwA&usqp=CAU' />
