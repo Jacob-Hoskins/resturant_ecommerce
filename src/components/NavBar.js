@@ -53,8 +53,8 @@ const Container = styled.nav`
 
     @media (max-width: 500px){
         .logo{
-            width: 1rem;
-            height: 1rem'
+            width: .3rem;
+            height: 1rem;
         }
     }
 `
