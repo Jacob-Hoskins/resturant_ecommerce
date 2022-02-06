@@ -17,8 +17,8 @@ const Container = styled.article`
     background-color: #ED7966;
     margin-left: 15vw;
     margin-top: 20vh;
-    width: 25vw;
-    height: 35vh;
+    width: 30rem;
+    height: 21.2rem;
     border: solid black 3px;
     border-radius: 25px;
     text-align: center;
