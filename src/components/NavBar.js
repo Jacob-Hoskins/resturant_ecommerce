@@ -31,22 +31,14 @@ const Container = styled.nav`
     box-shadow: 2px 15px 20px #000;
 
     h3{
+        float: left;
         cursor: pointer;
-    }
-
-    .logo{
-        display: flex;
-        text-align: left;
     }
 
     .icons{
         font-size: 50px;
         cursor: pointer;
 
-    }
-    
-    .sideIcons{
-        margin-right: 20px;
     }
 
     @media (max-width: 500px){
@@ -59,7 +51,7 @@ const Container = styled.nav`
 
 const SearchBar = styled.div`
     display: flex;
-    margin: auto;
+    margin-left: 33vw;
     border-radius: 8px;
 
     p{
@@ -80,8 +72,7 @@ const SearchBar = styled.div`
 `
 
 const SideIcons = styled.div`
-    margin-top: 1em;
-    width: 33vw;
-    text-align: right;
-
+    display: flex;
+    margin-top: -5vh;
+    width: 45vw;
 `
