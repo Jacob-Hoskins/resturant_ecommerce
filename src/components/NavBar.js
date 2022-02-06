@@ -24,9 +24,6 @@ function NavBar() {
 export default NavBar;
 
 const Container = styled.nav`
-    display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
-    length:  100%;
     padding: 15px;
     font-size: 24px;
     background-color: rgba(20, 24, 80, 1);
