@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import './App.css';
 import OptionLeft from './components/OptionLeft';
 // import OptionRight from './components/OptionRight';
-import MenuBar from './components/MenuBar';
+// import MenuBar from './components/MenuBar';
 import NavBar from './components/NavBar';
 
 
