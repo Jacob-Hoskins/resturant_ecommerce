@@ -32,6 +32,7 @@ const Container = styled.nav`
 
     h3{
         float: left;
+        margin-top: 1.5vh;
         cursor: pointer;
     }
 
@@ -42,9 +43,8 @@ const Container = styled.nav`
     }
 
     @media (max-width: 500px){
-        .logo{
-            width: .3rem;
-            height: 1rem;
+        h3{
+            font-size: 18px;
         }
     }
 `
@@ -52,6 +52,7 @@ const Container = styled.nav`
 const SearchBar = styled.div`
     display: flex;
     margin-left: 33vw;
+    margin-top: 15px;
     border-radius: 8px;
 
     p{
@@ -65,14 +66,24 @@ const SearchBar = styled.div`
         text-align: center;
     }
 
-    .icons{
+    @media (max-width: 500px){
+        width: 35vw;
+        margin-left: 28vw;
     }
 
+    
     
 `
 
 const SideIcons = styled.div`
     display: flex;
-    margin-top: -5vh;
-    width: 45vw;
+    margin-top: -6vh;
+    margin-left: 87vw;
+    padding: 5px;
+
+    @media (max-width: 500px){
+        margin-top: -8vh;
+        margin-left: 70vw;
+        width: 20vw;
+    }
 `
