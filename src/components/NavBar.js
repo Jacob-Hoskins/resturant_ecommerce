@@ -15,6 +15,7 @@ function NavBar() {
             <IoCart className='icons sideIcons'/>
             <IoPersonOutline className='icons sideIcons'/>
         </SideIcons>
+        
     </Container>
 
   );
@@ -25,6 +26,7 @@ export default NavBar;
 const Container = styled.nav`
     display: grid;
     grid-template-columns: 33vw 33vw 33vw;
+    min-width: 100vw;
     width: 100vw;
     padding: 15px;
     font-size: 24px;
