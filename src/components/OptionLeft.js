@@ -24,6 +24,7 @@ const Container = styled.article`
     text-align: center;
     cursor: pointer;
     font-weight: bold;
+    box-shadow: 2px 15px 20px #000;
 
     img{
         margin: 0;
