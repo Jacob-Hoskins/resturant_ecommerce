@@ -26,6 +26,11 @@ const Container = styled.article`
     font-weight: bold;
     box-shadow: 2px 15px 20px #000;
 
+    @media (max-width: 500px){
+        width: 15rem;
+        height: 11.1rem;
+    }
+
     img{
         margin: 0;
         border-radius: 25px;
