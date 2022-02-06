@@ -22,6 +22,7 @@ export default NavBar;
 
 const Container = styled.nav`
     display: grid;
+    width: 100%;
     grid-template-columns: 33vw 33vw 33vw;
     margin: auto;
     padding: 15px;
