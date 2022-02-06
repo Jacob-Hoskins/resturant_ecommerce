@@ -34,7 +34,6 @@ const Container = styled.nav`
 
     h3{
         cursor: pointer;
-        
     }
 
     .logo{
